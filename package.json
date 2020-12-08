@@ -1,0 +1,17 @@
+{
+  "name": "shape-it-with-colours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express-handlebars": "^5.2.0",
+    "flash-express": "^1.0.4"
+  }
+}
