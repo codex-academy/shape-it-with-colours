@@ -11,12 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-<<<<<<< HEAD
     "express": "^4.17.1",
     "express-flash": "0.0.2",
-=======
-    "exphbs": "^1.2.0",
->>>>>>> f804386b0dd95703200505277e2d106d10e27822
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
     "flash-express": "^1.0.4",
