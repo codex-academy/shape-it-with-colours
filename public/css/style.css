@@ -32,6 +32,7 @@ body {
       text-transform: uppercase;
       font-weight: 300;
       color: chartreuse;
+      font: bolder;
   }
   
   /* .heading {
@@ -58,4 +59,8 @@ body {
       content: " ";
       width: 100px;
       margin: 30px auto 0px auto;
+  }
+
+  .hidden {
+    display: none;
   }
