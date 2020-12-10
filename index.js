@@ -22,7 +22,6 @@ const pool = new Pool({
 
 const ShapesAndColors = shapes_colours(pool);
 
-
 // //setup template handlebars as the template engine
 // app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 // app.set('view engine', 'handlebars');
@@ -57,17 +56,17 @@ app.use(bodyParser.json())
 
 app.get('/', function(req, res){
 
-    res.render()
+    res.render('index')
 })
 
 app.get('/shapes-and-colours', function(req, res){
 
-    res.render('/shapes-and-colours')
+    res.render('shapes-and-colours')
 })
 
 app.post('/shapes-and-colours', function(req, res){
 
-    res.render('/shapes-and-colours')
+    res.render('shapes-and-colours')
 })
 
 // app.get('/results', function(req, res){
