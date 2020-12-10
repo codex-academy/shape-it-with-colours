@@ -1,7 +1,68 @@
 /* body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1em;
+<<<<<<< HEAD
 	background-image: url("../images/jpg");
 	background-color: #cccccc;
 	background-size: cover;
   } */
+=======
+	background-image: url("../images/0-6658_kids-desktop-backgrounds-wallpaper-wallpapers-for-kids-kids.jpg");
+	background-color: #cccccc;
+    background-size: cover;
+    text-align: center;
+  }
+
+  footer{
+      /* background-color: aquamarine; */
+      background-color: rgb(177, 202, 202);
+    padding: 10px;
+  }
+
+  button{
+    background-color: chartreuse;
+    color: black;
+    border-radius: 14px;
+    font-size: 20px;
+    border: none;
+    padding: 12px 20px;
+    
+  }
+  
+  button:hover{
+    background-color: darkorchid;
+    color: darkseagreen;
+  }
+
+  h1{
+      text-transform: uppercase;
+      font-weight: 300;
+      color: chartreuse;
+  }
+  
+  /* .heading {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 200%;
+      color: rgb(90, 175, 126);
+      word-spacing: 4px;
+      letter-spacing: 1px;
+  } */
+  
+  h1 {
+      font-size: 180%;
+      word-spacing: 2px;
+      text-align: center;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+  }
+  
+  h1:after {
+      display: block;
+      height: 2px;
+      background-color: #6821eb;
+      content: " ";
+      width: 100px;
+      margin: 30px auto 0px auto;
+  }
+>>>>>>> 25e4d51b3d79407405bbd4bc6e41e13588920857
