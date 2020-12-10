@@ -35,7 +35,7 @@ function nextShape() {
     
     const message = "Well done! You know your shapes." 
     audio(message)
-    jinglebells.play();
+    bell.play();
 
     currentShape = "";
 
