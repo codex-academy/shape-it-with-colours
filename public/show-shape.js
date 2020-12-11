@@ -90,7 +90,7 @@ restartBtn.addEventListener("click", function () {
 
 
 
-const bell = new Audio("/audio/jinglebells.mp3");
+const bell = new Audio("/audio/cheering.mp3");
 
 // Load the image model and setup the webcam
 async function init() {
