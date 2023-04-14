@@ -133,8 +133,12 @@ async function loop() {
 const speakAboutShapeSeen = _.throttle(function (modelShapeName) {
     if (currentShape === modelShapeName) {
         correct();
-        modelShapeName = "";
-        nextShape();
+        // wait a bit after a correct shape to go to the next shape
+        setTimeout(function(){
+            modelShapeName = "";
+            nextShape();    
+        }, 3000)
+        
 
     } else {
         error(modelShapeName);
